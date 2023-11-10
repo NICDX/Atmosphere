@@ -1,52 +1,133 @@
 <!DOCTYPE html>
 <html lang="ru">
-  @@include('html/head.html', {
-    'title': 'Главная'
-  })
-  <body>
-    <div class="wrapper">
-      @@include('html/header.html')
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Бюро "Атмосфера"</title>
+   <!--<link rel="stylesheet" href="css/style.min.css">-->
+    <link rel="icon" href="favicon.ico">
+  </head>
+<body class ="page__body">
 
-      <main class="page">
-        <div data-observ></div>
+  <header class="header">
+    <header class="header__container container">
+     <a class="header__logo" href="#">
+      <picture>
+        <!--тут будет лого-->
+      </picture>
+     </a>
 
-        <div class="page__container">
-          <div class="checkboxes">
-            @@include('html/checkBoxesExample.html')
-          </div>
-          <br>
-          <br>
-          <br>
-          @@include('html/accordionExample.html')
-          <br>
-          <br>
-          <br>
-          @@include('html/tabsExample.html')
-          <br>
-          <br>
-          <br>
+     <nav class="header__nav nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="#">
+            Услуги бюро
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">
+            Флиппинг проекты
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">
+            Частным клиентам
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">
+            Ивесторам
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">
+            Контакты
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-          <button data-type="popup-1" type="button">Открыть попап</button>
-          <br>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-          <br>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-          <br>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-          <br>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-          <br>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-          <br>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-        </div>
-
-      </main>
-
-      @@include('html/footer.html')
+    <nav class="personal__header personal-nav">
+      <ul class="personal-nav__list">
+        <li class="personal-nav__item">
+          <a class="personal-nav__button" href="#" title="Наш Whatsapp">
+            <svg width="16" height="16">
+              <!--Whatsapp pic-->
+            </svg>
+            <span class="personal-nav__hidden-text">Whatsapp</span>
+          </a>
+        </li>
+        <li class="personal-nav__item">
+          <a class="personal-nav__button" href="#" title="Наш Telegramm">
+            <svg width="16" height="16">
+               <!--Telegramm pic-->
+            </svg>
+            <span class="personal-nav__hidden-text">Telegramm</span>
+          </a>
+        </li>
+        <li class="personal-nav__item">
+          <a class="personal-nav__button" href="#" title="Заказать звонок">  <!--При нажатии ссылки открывается модальное окно-->
+            <svg width="16" height="16">
+               <!--Telephone pic-->
+            </svg>
+            <span class="personal-nav__hidden-text">Telephone</span>
+          </a>
+        </li>
+        <li class="personal-nav__item personal-nav__item--burger">
+          <button class="personal-nav__button burger js-toggle-button" type="button" title="Меню">
+            <span class="visually-hidden">Открыть/Закрыть меню.</span>
+            <span class="burger__element"></span>
+          </button>
+        </li>
+      </ul>
+    </nav>
     </div>
 
-    @@include('html/popupExample.html')
-    @@include('html/script.html')
+    </header>
+<!---Header-->
+
+<!---Main-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---Main-->
+ <!---Footer-->
+
+ <class="footer"">
+  <div class="footer__container">
+    <div class="footer__intro">
+      <div class="footer__logo">
+        <picture>
+          <!--ATM BURO pic-->
+        </picture>
+      </div>
+
+      <div class="footer__logo">
+        <picture>
+          <!--ATM  pic-->
+        </picture>
+      </div>
+
+     </div>
+   
+   
+   
+   
+   
+   
+    </div>
+
+
+
   </body>
 </html>
