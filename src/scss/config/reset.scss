@@ -23,21 +23,6 @@ aside {
   display: block;
 }
 
-html {
-  opacity: 0;
-  scroll-behavior: smooth;
-  transition: opacity 0.8s ease-in-out;
-
-  &.loaded {
-    opacity: 1;
-  }
-
-  &.lock {
-    overflow: hidden;
-    touch-action: none;
-  }
-}
-
 html,
 body {
   width: 100%;
