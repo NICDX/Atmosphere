@@ -1,0 +1,9 @@
+.footer__container {
+    background-color: $colorBaseSecondary;
+
+    @media ($mediaTablet) {
+        //display: flex;
+        min-height: 995px;
+        align-items: center;
+     }
+}

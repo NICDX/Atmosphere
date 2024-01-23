@@ -80,16 +80,16 @@
 }
 
 // Плавный скролл
-%smooth-scroll {
-  -webkit-overflow-scrolling: touch;
-}
+//%smooth-scroll {
+  //-webkit-overflow-scrolling: touch;
+//}
 
 // Скрыть скролл
-%hide-scroll {
-  &::-webkit-scrollbar {
-    display: none;
-  }
-}
+//%hide-scroll {
+ // &::-webkit-scrollbar {
+ //   display: none;
+ // }
+//}
 
 %flex-center {
   display: flex;

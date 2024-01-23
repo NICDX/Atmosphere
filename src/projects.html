@@ -11,10 +11,13 @@
 
   <header class="header">
     <header class="header__container container">
-     <a class="header__logo" href="index.html">
-      <picture>
-        <!--тут будет лого-->
-      </picture>
+      <a class="header__logo" href="index.html">
+        <picture>
+          <source type="image/svg+xml" media="(min-width: 1920px)" srcset="./images/logo-desktop.svg">
+          <source type="image/svg+xml" media="(min-width: 768px)" srcset="./images/logo-desktop.svg">
+          <img src="./images/logo-mobile.svg" width="63" height="44"
+               alt="Логотип Бюро Атмосфера.">
+        </picture>
      </a>
 
      <nav class="header__nav nav">
@@ -87,7 +90,7 @@
 <!---Header-->
 
 <!---Main-->
-<main class="main__page">
+<main class="page__main">
   <!--link list-->
 
 <section class="projects">
@@ -121,13 +124,19 @@
     <div class="footer__intro">
       <div class="footer__logo">
         <picture>
-          <!--ATM BURO pic-->
+          <source type="image/svg+xml" media="(min-width: 1920px)" srcset="./images/atmlogofooter-desktop.svg">
+          <source type="image/svg+xml" media="(min-width: 768px)" srcset="./images/atmlogofooter-desktop.svg">
+          <img src="./images/atmlogofooter-mobile.svg" width="115" height="80"
+               alt="Логотип Бюро Атмосфера.">
         </picture>
       </div>
 
       <div class="footer__logo">
         <picture>
-          <!--ATM  pic-->
+          <source type="image/svg+xml" media="(min-width: 1920px)" srcset="./images/Atmosphere-desktop.svg">
+          <source type="image/svg+xml" media="(min-width: 768px)" srcset="./images/Atmosphere-desktop.svg">
+          <img src="./images/Atmosphere-mobile.svg" width="328" height="26"
+               alt="Логотип Бюро Атмосфера.">
         </picture>
       </div>
 
