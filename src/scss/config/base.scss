@@ -9,11 +9,11 @@
 * всем классам содержащим *__container
 * Например header__container, main__container и т.д.
 */
-[class*='__container'] {
-  max-width: rem($maxWidthContainer);
-  margin: 0 auto;
-  padding: 0 rem($mainOffset);
-}
+//[class*='__container'] {
+  //max-width: rem($maxWidthContainer);
+  //margin: 0 auto;
+ // padding: 0 rem($mainOffset);
+//}
 
 // Стили отзывчивых картинок (IBG) ============================================
 [class*='-ibg'] {

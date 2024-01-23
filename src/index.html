@@ -11,31 +11,34 @@
 
   <header class="header">
     <header class="header__container container">
-     <a class="header__logo" href="#">
+     <a class="header__logo" href="index.html">
       <picture>
-        <!--тут будет лого-->
+        <source type="image/svg+xml" media="(min-width: 1920px)" srcset="./images/logo-desktop.svg">
+        <source type="image/svg+xml" media="(min-width: 768px)" srcset="./images/logo-desktop.svg">
+        <img src="./images/logo-mobile.svg" width="63" height="44"
+             alt="Логотип Бюро Атмосфера.">
       </picture>
      </a>
 
      <nav class="header__nav nav">
       <ul class="nav__list">
         <li class="nav__item">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="services.html">
             Услуги бюро
           </a>
         </li>
         <li class="nav__item">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="projects.html">
             Флиппинг проекты
           </a>
         </li>
         <li class="nav__item">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="clients.html">
             Частным клиентам
           </a>
         </li>
         <li class="nav__item">
-          <a class="nav__link" href="#">
+          <a class="nav__link" href="investors.html">
             Ивесторам
           </a>
         </li>
@@ -51,7 +54,7 @@
       <ul class="personal-nav__list">
         <li class="personal-nav__item">
           <a class="personal-nav__button" href="#" title="Наш Whatsapp">
-            <svg width="16" height="16">
+            <svg width="24" height="24">
               <!--Whatsapp pic-->
             </svg>
             <span class="personal-nav__hidden-text">Whatsapp</span>
@@ -59,7 +62,7 @@
         </li>
         <li class="personal-nav__item">
           <a class="personal-nav__button" href="#" title="Наш Telegramm">
-            <svg width="16" height="16">
+            <svg width="24" height="24">
                <!--Telegramm pic-->
             </svg>
             <span class="personal-nav__hidden-text">Telegramm</span>
@@ -67,7 +70,7 @@
         </li>
         <li class="personal-nav__item">
           <a class="personal-nav__button" href="#" title="Заказать звонок">  <!--При нажатии ссылки открывается модальное окно-->
-            <svg width="16" height="16">
+            <svg width="24" height="24">
                <!--Telephone pic-->
             </svg>
             <span class="personal-nav__hidden-text">Telephone</span>
@@ -93,8 +96,8 @@
   <!---Hero-->
 <section class="hero">
   <h1 class="visually-hidden">Бюро Атмосфера.</h1>
-  <!--<img class="hero__image" src="" width="" height=""
-    alt="Atmosphere.">-->
+  <!---<img class="hero__image" src="./images/IMG_4771.jpg" width="20" height="20"
+    alt="Atmosphere."> -->
 <p class="hero__discription">Недвижимость. Дизайн. Инвестиции.</p>
   </section>
  <!---Hero-->

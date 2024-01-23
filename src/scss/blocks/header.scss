@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 72px; 
+
+    @media ($tablet-width) {
+        min-height: 136px;
+      }
+}
+
+
+
+
+.header__container {
+    background-color: $colorBaseSecondary;
+    display: flex;
+  align-items: center;
+  padding-right: 0;
+
+}
+
+
+.header__logo {
+    padding-right: 10px;
+}
