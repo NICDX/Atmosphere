@@ -1,5 +1,5 @@
 .footer {
-  color: $colorBaseSecondary;
+  background-color: $colorBaseSecondary;
 }
 
 .footer__logo {
@@ -39,7 +39,7 @@
   }
 }
 
-.footer__intro {
+.footer__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;

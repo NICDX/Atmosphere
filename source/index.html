@@ -57,7 +57,6 @@
             <svg width="24" height="24">
               <use href="./images/icons/stack.svg#whatsapp"></use>
             </svg>
-            <span class="personal-nav__hidden-text">Whatsapp</span>
           </a>
         </li>
         <li class="personal-nav__item">
@@ -65,7 +64,6 @@
             <svg width="24" height="24">
               <use href="./images/icons/stack.svg#telegram"></use>
             </svg>
-            <span class="personal-nav__hidden-text">Telegramm</span>
           </a>
         </li>
         <li class="personal-nav__item">
@@ -73,7 +71,6 @@
             <svg width="24" height="24">
               <use href="./images/icons/stack.svg#phone"></use>
             </svg>
-            <span class="personal-nav__hidden-text">Telephone</span>
           </a>
         </li>
         <li class="personal-nav__item personal-nav__item--burger">
@@ -104,25 +101,50 @@
 <!---Intro-->
 <section class="intro">
     <h1 class="visually-hidden">Атмосфера</h1>
-  <ol class="intro__piclist">
-    <li class="intro__item">
+
+    <ol class="intro__piclist">
+
+      <li class="intro__item">
     <picture>
-    <!---Hero-->
+      <source media="(min-width: 1920px)"
+      srcset="./images/city.jpg">
+    <source media="(min-width 768px)"
+      srcset="./images/city.jpg">
+    <img class="advantages__image" src="./images/city.jpg"
+      srcset="./images/city.jpg" width="328" height="124" alt="Город">
     </picture>
     </li>
-  <li class="intro__item">
+
+    <li class="intro__item">
     <picture>
-      <!---Hero-->
+      <source media="(min-width: 1920px)"
+      srcset="./images/people.jpg">
+    <source media="(min-width 768px)"
+      srcset="./images/people.jpg">
+    <img class="advantages__image" src="./images/people.jpg"
+      srcset="./images/people.jpg" width="328" height="124" alt="Город">
     </picture>
   </li>
+
   <li class="intro__item">
     <picture>
-      <!---Hero-->
+      <source media="(min-width: 1920px)"
+      srcset="./images/room.jpg">
+    <source media="(min-width 768px)"
+      srcset="./images/room.jpg">
+    <img class="advantages__image" src="./images/room.jpg"
+      srcset="./images/room.jpg" width="328" height="124" alt="Город">
     </picture>
   </li>
+
   <li class="intro__item">
     <picture>
-      <!---Hero-->
+      <source media="(min-width: 1920px)"
+      srcset="./images/atmlogopic.jpg">
+    <source media="(min-width 768px)"
+      srcset="./images/atmlogopic.jpg">
+    <img class="advantages__image" src="./images/atmlogopic.jpg"
+      srcset="./images/atmlogopic.jpg" width="217" height="124" alt="Город">
     </picture>
   </li>
 </ol>
@@ -140,6 +162,14 @@
 
   <!---Video-->
 <section class="video">
+  <div class="video__container">
+    <iframe class="video__item">
+
+    </iframe>
+  <p class="video__description"> Слово  от создателя Бюро
+    Марии Сарапас </p>
+
+  </div>
   <!---video-->
 </section>
   <!---Video-->
@@ -229,7 +259,7 @@
 
  <footer class="footer">
   <div class="footer__container">
-    <div class="footer__intro">
+    <div class="footer__innner">
       <div class="footer__logo">
         <picture>
           <source type="image/svg+xml" media="(min-width: 1920px)" srcset="./images/atmlogofooter-desktop.svg">
@@ -248,36 +278,21 @@
         </picture>
       </div>
 
-
-      <ul class="footer__description description">
-        <li class="description__item">
-          <p class="description__text">Недвижимость.</p>
-
-        </li>
-        <li class="description__item">
-        <p class="description__text">Дизайн.</p>
-
-        </li>
-        <li class="description__item">
-        <p class="description__text">Инвестиции.</p>
-        </li>
-      </ul>
-
-
+      <p class="footer__logo-text">Недвижимость. Дизайн. Инвестиции.</p>
       <ul class="footer__social social">
         <li class="social__item">
           <a class="social__link" href="#" title="Whatsapp">
             <span class="visually-hidden">Whatsapp.</span>
-            <svg width="20" height="20">
-              <!--Whatsapp pic-->
+            <svg width="24" height="24">
+              <use href="./images/icons/stack.svg#whatsapp"></use>
             </svg>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="#" title="Telegramm">
             <span class="visually-hidden">Telegramm.</span>
-            <svg width="22" height="22">
-              <!--telegramm pic-->
+            <svg width="24" height="24">
+              <use href="./images/icons/stack.svg#telegram"></use>
             </svg>
           </a>
         </li>
@@ -285,7 +300,7 @@
             <span class="social__telephone">8080800808080.</span>
         </li>
       </ul>
-     </div>
+    </div>
 
    <div class="footer__fiealdset">
     <h2 class="visually-hidden">Форма обратной связи</h2>
@@ -307,7 +322,7 @@
     </div>
     </div>
 
-  <div class="footer__navigation">
+  <!--<div class="footer__navigation">
     <nav class="footer__nav nav">
       <ul class="nav__list">
         <li class="nav__item">
@@ -337,7 +352,7 @@
         </li>
       </ul>
     </nav>
-  </div>
+  </div> -->
 
   <div class="footer__information">
   <ul class="footer__inf information">

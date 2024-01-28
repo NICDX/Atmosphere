@@ -10,6 +10,11 @@
 
   @media ($mediaDesktop) {
     background-image: url("./images/intro.jpg");
-
   }
+}
+
+.hero__discription {
+  color: $colorFont;
+  font-family: inherit;
+  font-size: 15px;
 }
