@@ -18,3 +18,11 @@ const teamswiper = new Swiper('.teamswiper',{
     prevEl: '.third',
   }
 });
+
+const projectsswiper = new Swiper('.projectsswiper',{
+  slidesPerView: 1,
+  navigation: {
+    nextEl: '.four',
+    prevEl: '.five',
+  }
+});
