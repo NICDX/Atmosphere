@@ -5,12 +5,13 @@
     <title>Бюро Атмосфера></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="scripts/index.js" defer></script>
   </head>
 <body class ="page__body">
 
   <header class="header">
-    <header class="header__container container">
+    <div class="header__container container">
      <a class="header__logo" href="index.html">
       <picture>
         <source type="image/svg+xml" media="(min-width: 1920px)" srcset="./images/logo-desktop.svg">
@@ -82,7 +83,6 @@
       </ul>
     </nav>
     </div>
-
     </header>
 <!---Header-->
 
@@ -163,9 +163,9 @@
   <!---Video-->
 <section class="video">
   <div class="video__container">
-    <iframe class="video__item">
+    <video class="video__item">
 
-    </iframe>
+    </video>
   <p class="video__description"> Слово  от создателя Бюро
     Марии Сарапас </p>
 
@@ -175,25 +175,23 @@
   <!---Video-->
 
 <section class="projectflipslider">
-  <div class="projectlipslider__container"></div>
+  <div class="projectlipslider__container">
   <h3 class="projectlipslider__title"> Флиппинг проекты</h3>
-<ul class="slider">
-  <li class="slider__item">
-    <div class="slider__image">
-      <picture class="slider__picture">  </picture>
-    </div>
-    <div class="slider__discription-container">
-    <p class="slider__discription">
-      Ул. Московская
-    </p>
-    </div>
-    <div class="slider__location">
-      <p class="slider__city">
-        г. Москва
-      </p>
-    </div>
-  </li>
-</ul>
+<!-- Slider main container -->
+<div class="swiper projectflip" style = "width: 500px; height: 500px;">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    <div class="swiper-slide">Slide 4</div>
+  </div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
 
 </div>
   <!---slider-->
@@ -226,26 +224,20 @@
 </section>
 
   <section class="team">
-    <div class="team__container">
-    <h3 class="projectlipslider__title"> Наша команда</h3>
-  <ul class="slider">
-    <li class="slider__item">
-      <div class="slider__image">
-        <picture class="slider__picture">  </picture>
-      </div>
-      <div class="slider__discription-container">
-      <p class="slider__discription">
-        Мария Сарапас
-      </p>
-      </div>
-      <div class="slider__location">
-        <p class="slider__city">
-          Создатель бюро
-        </p>
-      </div>
-    </li>
-  </ul>
-
+   <!-- Slider main container -->
+<div class="swiper teamswiper" style = "width: 500px; height: 500px;">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    <div class="swiper-slide">Slide 4</div>
+  </div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev second"></div>
+  <div class="swiper-button-next third"></div>
+</div>
   </div>
 </section>
 
