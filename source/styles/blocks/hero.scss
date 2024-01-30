@@ -7,11 +7,12 @@
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 911px;
+  min-height: 360px;
   margin-bottom: 13px;
   margin-top: -21px;
 
   @media ($mediaDesktop) {
     background-image: url("../../images/intro.jpg");
+    min-height: 911px;
   }
 }
