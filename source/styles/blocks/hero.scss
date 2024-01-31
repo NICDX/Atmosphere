@@ -11,7 +11,7 @@
   margin-bottom: 13px;
   margin-top: -21px;
 
-  @media ($mediaDesktop) {
+  @media ($mediaTablet) {
     background-image: url("../../images/intro.jpg");
     min-height: 911px;
   }

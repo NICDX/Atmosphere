@@ -1,16 +1,17 @@
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  min-height: 72px;
+  width: 100%;
 }
 
 .header__container {
   background-color: $colorBaseSecondary;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding-right: 0;
+  flex-direction: row;
+  //margin-left: 20px;
+  position: relative;
+  margin-left: -8px;
+  margin-top: -80px;
 
   @media ($mediaTablet) {
     padding-right: $containerIndent;
@@ -18,35 +19,22 @@
 
   @media ($mediaDesktop) {
     padding-right: $containerIndentDesktop;
+    gap: 140px;
+    margin-left: -8px;
+    justify-content: center;
+    margin-top: -80px;
   }
 }
 
 .header__logo {
   @include link-reset;
-  display: block;
-  height: 36px;
-  margin-left: 40px;
-  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
   @media ($mediaTablet) {
     margin-left: 150px;
     margin-right: 88px;
-  }
-}
-
-.header__nav {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-
-  @media ($mediaTablet) {
-    position: static;
-    margin: 0 60px 0 auto;
-  }
-
-  @media ($mediaDesktop) {
-    margin: 0 160px 0 auto;
   }
 }
 

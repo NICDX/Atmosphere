@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="scripts/index.js" defer></script>
+    <script src ="scripts/mobile.js" defer></script>
   </head>
 <body class ="page__body">
 
   <header class="header">
-    <div class="header__container container">
+    <div class="header__container">
      <a class="header__logo" href="index.html">
       <picture>
         <source type="image/svg+xml" media="(min-width: 1920px)" srcset="./images/logo-desktop.svg">
@@ -21,7 +22,7 @@
       </picture>
      </a>
 
-     <nav class="header__nav nav">
+     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item">
           <a class="nav__link" href="services.html">
@@ -74,16 +75,53 @@
             </svg>
           </a>
         </li>
-        <li class="personal-nav__item personal-nav__item--burger">
-          <button class="personal-nav__button burger js-toggle-button" type="button" title="Меню">
-            <span class="visually-hidden">Открыть/Закрыть меню.</span>
-            <span class="burger__element"></span>
-          </button>
+      </ul>
+    </nav>
+
+    <div class="menu">
+    <span class="menu__link-span">
+      <svg class="menu__burger js-toggle-button" width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Atmosphere" >
+          <use xlink:href="#menu__burger">
+          </use>
+      </svg>
+    </span>
+   <svg class="menu__cross" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"" role="img" aria-label="Atmosphere" >
+     <use xlink:href="#menu__cross">
+     </use>
+   </svg>
+  </div>
+  </div>
+
+    <nav class="menu-mobile">
+      <ul class="menu-mobile__list">
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="services.html">
+            Услуги бюро
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="projects.html">
+            Флиппинг проекты
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="clients.html">
+            Частным клиентам
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="investors.html">
+            Ивесторам
+          </a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="#">
+            Контакты
+          </a>
         </li>
       </ul>
     </nav>
-    </div>
-    </header>
+  </header>
 <!---Header-->
 
 <!---Main-->
